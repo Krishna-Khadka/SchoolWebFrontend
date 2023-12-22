@@ -1157,6 +1157,13 @@ nav.sticky .dropdown-item:hover {
     padding: 100px 120px;
 }
 
+.blog-details p{
+    line-height: 27px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-dim);
+}
+
 @media (max-width: 768px) {
     .blog {
         width: 90%;
@@ -2304,4 +2311,70 @@ background: var(--gradient);
     #team .tab-content .my-team{
         margin-top: 15px;
     }
+}
+
+/* eventDetail page */
+#event-detail{
+    padding: 100px 0;
+}
+
+#event-detail .event-info{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#event-detail .event-info .thumbnail{
+    height: 500px;
+}
+
+#event-detail .event-info .thumbnail img{
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+#event-detail .event-desc{
+    margin-top: 110px;
+}
+
+#event-detail .event-desc ul li{
+    display: inline-block;
+}
+
+#event-detail .event-desc ul li:not(:first-child){
+    padding-left: 15px;
+}
+
+#event-detail .event-desc ul li i{
+    color: var(--primary);
+}
+
+#event-detail .event-desc ul li span{
+    padding-left: 4px;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+#event-detail .event-desc h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    font-family: var(--font3);
+    padding: 15px 0;
+}
+
+#event-detail .event-desc p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-weight: var(--text-dim);
+    line-height: 27px;
+}
+
+/* notice detail page */
+#notice-detail{
+    padding: 100px 0;
+}
+
+#notice-detail .notice-info{
+    text-align: center;
 }
