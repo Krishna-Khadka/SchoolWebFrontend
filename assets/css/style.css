@@ -2489,3 +2489,27 @@ nav.sticky .dropdown-item:hover {
   font-size: 19px;
   color: var(--text-dim);
 }
+
+
+/* archieve page */
+#archieve {
+  padding: 80px 0;
+}
+
+#archieve .table {
+  width: 100%;
+  text-align: center;
+}
+
+#archieve .table th,
+#archieve .table td
+{
+  padding: 25px 0;
+  font-weight: 500;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+#archieve .table th {
+  font-weight: 600;
+}
