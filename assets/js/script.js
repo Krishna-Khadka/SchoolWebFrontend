@@ -39,11 +39,29 @@ var horizontalSplide = new Splide(".horizontal-splide", {
 
 horizontalSplide.mount();
 
+
 // Update the number of visible slides when the window resizes
 window.addEventListener("resize", function () {
   horizontalSplide.options.perPage = updateHorizontalSplidePerPage();
   horizontalSplide.refresh();
 });
+
+// Initialize testimonial slider
+var testimonialSplide = new Splide(".testimonial-splide", {
+  type: "loop",
+  arrows: false,
+  pagination: false,
+  autoplay: true,
+  perPage: 3,
+  perMove: 1,
+  breakpoints: {
+    576: {
+      perPage: 1,
+    },
+  },
+});
+
+testimonialSplide.mount();
 
 // counter
 // Initialize counters when the respective section comes into view

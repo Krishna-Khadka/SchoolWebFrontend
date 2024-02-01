@@ -2442,3 +2442,50 @@ nav.sticky .dropdown-item:hover {
     padding: 10px;
     text-align: left;
   }
+
+/* testimonial */
+#testimonial {
+  padding: 80px 0;
+}
+
+#testimonial .testimonial-splide {
+  text-align: left;
+}
+
+#testimonial .review-top {
+  background: white;
+  box-shadow: 0px 0px 13px #dddddd8c;
+  padding: 30px 25px;
+  margin: 35px 0;
+  border-radius: 4px;
+  position: relative;
+}
+
+#testimonial .review-top .review-star {
+  margin-bottom: 30px;
+  color: var(--secondary);
+}
+
+#testimonial .review-bottom {
+  margin-left: 35px;
+}
+
+#testimonial .review-bottom .review-img {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  text-align: center;
+  overflow: hidden;
+}
+
+#testimonial .review-bottom h5 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text-dark);
+}
+
+#testimonial .review-bottom p {
+  font-size: 19px;
+  color: var(--text-dim);
+}

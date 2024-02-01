@@ -1,1180 +1,1384 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/owlCarousel/css/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/owlCarousel/css/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/splide/css/splide.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet"
-            href="assets/owlCarousel/css/owl.carousel.min.css">
-        <link rel="stylesheet"
-            href="assets/owlCarousel/css/owl.theme.default.min.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/splide/css/splide.min.css">
-        <link rel="stylesheet" href="assets/css/all.min.css">
-    </head>
+  <body>
+    <!-- ###################################  navbar code starts   ##################################### -->
 
-    <body>
-
-        <!-- ###################################  navbar code starts   ##################################### -->
-
-        <section id="top-nav" class="d-none d-lg-block">
-            <div class="container">
-                <div
-                    class="top-nav-content d-flex justify-content-between align-items-center">
-                    <div
-                        class="top-left d-flex justify-content-center align-items-center">
-                        <div
-                            class="top-link d-flex justify-content-center align-items-center">
-                            <div class="link-icon">
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                            <div class="link-det">
-                                <a href="mailto:krishkhadka2059@gmail.com">SchoolDemo@gmail.com</a>
-                            </div>
-                        </div>
-                        <div
-                            class="top-link d-flex justify-content-center align-items-center">
-                            <div class="link-icon">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                            <div class="link-det">
-                                <a href="tel:9762514888">(+977) 9762514888</a>
-                            </div>
-                        </div>
-                        <div
-                            class="top-link d-flex justify-content-center align-items-center">
-                            <div class="link-icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div class="link-det">
-                                <p>Itahari, Sunsari</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="top-right d-flex justify-content-between align-items-center">
-                        <div
-                            class="top-link d-flex justify-content-center align-items-center">
-                            <div class="link-icon">
-                                <i class="fa-solid fa-clock"></i>
-                            </div>
-                            <div class="link-det">
-                                <p>Sunday-Friday / 9AM - 5PM</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section id="top-nav" class="d-none d-lg-block">
+      <div class="container">
+        <div
+          class="top-nav-content d-flex justify-content-between align-items-center"
+        >
+          <div
+            class="top-left d-flex justify-content-center align-items-center"
+          >
+            <div
+              class="top-link d-flex justify-content-center align-items-center"
+            >
+              <div class="link-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="link-det">
+                <a href="mailto:krishkhadka2059@gmail.com"
+                  >SchoolDemo@gmail.com</a
+                >
+              </div>
             </div>
-        </section>
-
-        <nav class="navbar navbar-dark navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.png" class="img-fluid"
-                        alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar"
-                    aria-controls="offcanvasDarkNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                    <i class="fa-solid fa-bars"></i>
-                </button>
-                <div class="offcanvas offcanvas-end" tabindex="-1"
-                    id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title"
-                            id="offcanvasDarkNavbarLabel">
-                            <img src="assets/images/logo.png" class="img-fluid"
-                                alt="logo">
-                        </h5>
-                        <button type="button" class="btn-close btn-close-dark"
-                            data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page"
-                                    href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#"
-                                    role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    About
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item"
-                                            href="about.html">About
-                                            Us</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="vision.html">Mission
-                                            and Vision</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="team.html">Our
-                                            Team</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="programs.html">Classes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="admission.html">Admission</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#"
-                                    role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Resources
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item"
-                                            href="news.html">News and Events</a></li>
-                                    <li><a class="dropdown-item"
-                                            href="notices.html">Notices</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="gallery.html">Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div
+              class="top-link d-flex justify-content-center align-items-center"
+            >
+              <div class="link-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="link-det">
+                <a href="tel:9762514888">(+977) 9762514888</a>
+              </div>
             </div>
-        </nav>
-
-        <!-- ###################################  navbar code ends   ##################################### -->
-
-        <!-- ************************************************************************************************************************ -->
-
-        <!-- ################################### hero-section starts ################################### -->
-
-        <section id="hero">
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <div class="image-container">
-                        <img src="assets/images/slider1.jpg" alt="Slide 1">
-                    </div>
-                    <div class="slide-content">
-                        <h1>Creating Your Future</h1>
-                        <p>Besides providing you with new knowledge and
-                            training in chosen disciplines, our
-                            university also gives you an opportunity to
-                            benefit from spending your free time by
-                            playing</p>
-                        <div class="slide-button d-flex justify-content-center">
-                            <a href="#" class="btn-slider btn-slider1">know
-                                about us</a>
-                            <a href="#" class="btn-slider btn-slider2">contact
-                                us</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-container">
-                        <img src="assets/images/banner.jpg" alt="Slide 2">
-                    </div>
-                    <div class="slide-content">
-                        <h1>More Than Just Studying</h1>
-                        <p>Besides providing you with new knowledge and
-                            training in chosen disciplines, our
-                            university also gives you an opportunity to
-                            benefit from spending your free time by
-                            playing</p>
-                        <div class="slide-button d-flex justify-content-center">
-                            <a href="#" class="btn-slider btn-slider1">know
-                                about us</a>
-                            <a href="#" class="btn-slider btn-slider2">contact
-                                us</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-container">
-                        <img src="assets/images/slider3.jpg" alt="Slide 3">
-                    </div>
-                    <div class="slide-content">
-                        <h1>Providing Higher Education</h1>
-                        <p>Besides providing you with new knowledge and
-                            training in chosen disciplines, our
-                            university also gives you an opportunity to
-                            benefit from spending your free time by
-                            playing</p>
-                        <div class="slide-button d-flex justify-content-center">
-                            <a href="#" class="btn-slider btn-slider1">know
-                                about us</a>
-                            <a href="#" class="btn-slider btn-slider2">contact
-                                us</a>
-                        </div>
-                    </div>
-                </div>
+            <div
+              class="top-link d-flex justify-content-center align-items-center"
+            >
+              <div class="link-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="link-det">
+                <p>Itahari, Sunsari</p>
+              </div>
             </div>
-        </section>
-
-        <!-- ################################### hero-section ends ################################### -->
-
-        <!-- ************************************************************************************************************************ -->
-
-        <!-- ################################### home-about section starts ################################### -->
-
-        <section id="home-about">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4">
-                        <div class="sec-subTitle">
-                            <h6>you are welcome</h6>
-                        </div>
-                        <div class="sec-title">
-                            <h2>Discover our Top School Child Benefits</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-8">
-                        <div class="row">
-                            <div class="col-lg-3">
-                                <div class="about-box">
-                                    <i class="fa-solid fa-building-columns"></i>
-                                    <h5>college life</h5>
-                                    <p>overall in here</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="about-box">
-                                    <i class="fa-solid fa-calendar-days"></i>
-                                    <h5>events</h5>
-                                    <p>school events</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="about-box">
-                                    <i class="fa-solid fa-volleyball"></i>
-                                    <h5>sports club</h5>
-                                    <p>all about sports</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="about-box">
-                                    <i class="fa-solid fa-people-arrows"></i>
-                                    <h5>social clubs</h5>
-                                    <p>social responsibilities</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div
+            class="top-right d-flex justify-content-between align-items-center"
+          >
+            <div
+              class="top-link d-flex justify-content-center align-items-center"
+            >
+              <div class="link-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="link-det">
+                <p>Sunday-Friday / 9AM - 5PM</p>
+              </div>
             </div>
-        </section>
-
-        <!-- ################################### home-about section ends ################################### -->
-
-        <!-- ************************************************************************************************************************ -->
-
-        <!-- ################################### home-message section starts ################################### -->
-
-        <section id="home-message"
-            style="background: url(assets/images/home-aboutBG.jpg)">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-6">
-                        <div class="sec-title">
-                            <h2>About our school</h2>
-                        </div>
-                        <div class="sec-content">
-                            <p>Quisque volutpat mattis eros. Nullam malesuada
-                                erat ut ki diaml ka dhuddu pochu turpis.
-                                Suspendisse urna nibh, viverra non, semper
-                                suscipit, posuere a, pede. Donec nec justo eget
-                                felis facilisis fermentum. Morbi in sem quis dui
-                                placerat ornare. Pellentesque odio nisi, euismod
-                                in, pharetra a, ultricies in, diam. Sed arcu.
-                                Cras consequat</p>
-                        </div>
-                        <div class="message">
-                            <span><i class="fa-solid fa-quote-left"></i></span>
-                            <p>Nullam malesuada erat ut ki diaml ka dhuddu pochu
-                                turpis. Suspendisse urna nibh, viverra non,
-                                semper suscipit, posuere a, pede. Donec nec
-                                justo eget felis facilisis fermentum. Morbi in
-                                sem quis dui placerat ornare. Pellentesque odio
-                                nisi, euismod. Sed arcu. Cras consequat</p>
-                        </div>
-                        <div class="author">
-                            <h5>Suman Parajuli</h5>
-                            <h6>Principal</h6>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="images">
-                            <img src="assets/images/img1.jpg" class="img-fluid"
-                                alt>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ################################### home-message section ends ################################### -->
-
-        <!-- ************************************************************************************************************************ -->
-
-        <!-- ################################### home-news section starts ################################### -->
-
-        <section id="heading-box">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sec-subTitle">
-                            <h6>latest news</h6>
-                        </div>
-                        <div class="sec-title">
-                            <h2>Discover our recent news and events</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="home-news-content">
-            <div class="container">
-                <div class="row news-counter">
-                    <div class="col-lg-8 col-sm-12">
-                        <div class="row gy-5">
-                            <div class="col-lg-12">
-                                <div
-                                    class="home-news-grid d-flex justify-content-center">
-                                    <div class="news-image">
-                                        <img src="assets/images/fac1.jpg"
-                                            class="img-fluid" alt>
-                                    </div>
-                                    <div class="news-content">
-                                        <div class="news-top">
-                                            <span><i class="fa-solid fa-user"></i>
-                                                Admin</span>
-                                        </div>
-                                        <div class="news-bottom">
-                                            <h5 class="news-title">Scholarship
-                                                Award 2023</h5>
-                                            <p class="news-data">Lorem ipsum
-                                                dolor, sit amet
-                                                consectetur adipisicing elit.
-                                                Voluptatum maxime nihil iure est
-                                                magnam at .........</p>
-                                        </div>
-                                        <hr>
-                                        <div class="news-post">
-                                            <p>posted in: <span>Dec 25, 2023</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div
-                                    class="home-news-grid d-flex justify-content-center">
-                                    <div class="news-image">
-                                        <img src="assets/images/fac4.jpg"
-                                            class="img-fluid" alt>
-                                    </div>
-                                    <div class="news-content">
-                                        <div class="news-top">
-                                            <span><i class="fa-solid fa-user"></i>
-                                                Admin</span>
-                                        </div>
-                                        <div class="news-bottom">
-                                            <h5 class="news-title">Scholarship
-                                                Award 2023</h5>
-                                            <p class="news-data">Lorem ipsum
-                                                dolor, sit amet
-                                                consectetur adipisicing elit.
-                                                Voluptatum maxime nihil iure est
-                                                magnam at .........</p>
-                                        </div>
-                                        <hr>
-                                        <div class="news-post">
-                                            <p>posted in: <span>Dec 25, 2023</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div
-                                    class="home-news-grid d-flex justify-content-center">
-                                    <div class="news-image">
-                                        <img src="assets/images/fac2.jpg"
-                                            class="img-fluid" alt>
-                                    </div>
-                                    <div class="news-content">
-                                        <div class="news-top">
-                                            <span><i class="fa-solid fa-user"></i>
-                                                admin</span>
-                                        </div>
-                                        <div class="news-bottom">
-                                            <h5 class="news-title">Scholarship
-                                                Award 2023</h5>
-                                            <p class="news-data">Lorem ipsum
-                                                dolor, sit amet
-                                                consectetur adipisicing elit.
-                                                Voluptatum maxime nihil iure est
-                                                magnam at .........</p>
-                                        </div>
-                                        <hr>
-                                        <div class="news-post">
-                                            <p>posted in: <span>Dec 25, 2023</span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 home-counter">
-                        <div class="sec-subTitle">
-                            <h6>modern preparatory fact</h6>
-                        </div>
-                        <hr>
-                        <div class="row gy-4">
-                            <div class="col-lg-12">
-                                <div class="counter-div">
-                                    <div class="counter-title">
-                                        <span class="num" id="studentsCounter">0</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                    <div class="counter-body">
-                                        <h5>students</h5>
-                                        <p>Enrolled in various programs and
-                                            courses.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="counter-div">
-                                    <div class="counter-title">
-                                        <span class="num" id="teachersCounter">0</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                    <div class="counter-body">
-                                        <h5>teachers</h5>
-                                        <p>Dedicated educators committed to
-                                            excellence.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="counter-div">
-                                    <div class="counter-title">
-                                        <span class="num" id="clubsCounter">0</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                    <div class="counter-body">
-                                        <h5>social clubs</h5>
-                                        <p>making students socially responsible.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="counter-div">
-                                    <div class="counter-title">
-                                        <span class="num" id="yearsCounter">0</span>
-                                        <span class="plus">+</span>
-                                    </div>
-                                    <div class="counter-body">
-                                        <h5>years</h5>
-                                        <p>Providing quality education for over
-                                            two
-                                            decades.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- ################################### home-news section ends ################################### -->
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" class="img-fluid" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              <img src="assets/images/logo.png" class="img-fluid" alt="logo" />
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-dark"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="about.html">About Us</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="vision.html"
+                      >Mission and Vision</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="team.html">Our Team</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="programs.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="admission.html">Admission</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="news.html"
+                      >News and Events</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="notices.html">Notices</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-        <!-- ************************************************************************************************************************ -->
+    <!-- ###################################  navbar code ends   ##################################### -->
 
-        <!-- ################################### faculty section starts ################################### -->
+    <!-- ************************************************************************************************************************ -->
 
-        <section id="faculty" style="background: url(assets/images/banner1.jpg)">
-            <div class="container">
-                <div class="row gy-3">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="faculty-box fac1">
-                            <i class="fa-solid fa-child"></i>
-                            <h3 class="fac-head">PrePrimary Level</h3>
-                            <p class="fac-body">Welcome to the Pre-Primary and
-                                Primary School,
-                                where we nurture the development of each child
-                                emotionally,
-                                academically, physically, socially and
-                                artistically every day.
-                                During these formative years, it is essential...</p>
-                            <a href="#" class="btn1">learn more</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="faculty-box fac1">
-                            <i class="fa-solid fa-child"></i>
-                            <h3 class="fac-head">Primary Level</h3>
-                            <p class="fac-body">Welcome to the Pre-Primary and
-                                Primary School,
-                                where we nurture the development of each child
-                                emotionally,
-                                academically, physically, socially and
-                                artistically every day.
-                                During these formative years, it is essential...</p>
-                            <a href="#" class="btn1">learn more</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="faculty-box fac1">
-                            <i class="fa-solid fa-pencil"></i>
-                            <h3 class="fac-head">LowerSecondary and Secondary</h3>
-                            <p class="fac-body">We nurture the growth of the
-                                whole child
-                                academically, socially, physically and
-                                emotionally during what
-                                is typically the most difficult years (ages
-                                10-16) of one's
-                                school life. During this stage...</p>
-                            <a href="#" class="btn1">learn more</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- ################################### hero-section starts ################################### -->
+
+    <section id="hero">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="image-container">
+            <img src="assets/images/slider1.jpg" alt="Slide 1" />
+          </div>
+          <div class="slide-content">
+            <h1>Creating Your Future</h1>
+            <p>
+              Besides providing you with new knowledge and training in chosen
+              disciplines, our university also gives you an opportunity to
+              benefit from spending your free time by playing
+            </p>
+            <div class="slide-button d-flex justify-content-center">
+              <a href="#" class="btn-slider btn-slider1">know about us</a>
+              <a href="#" class="btn-slider btn-slider2">contact us</a>
             </div>
-        </section>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image-container">
+            <img src="assets/images/banner.jpg" alt="Slide 2" />
+          </div>
+          <div class="slide-content">
+            <h1>More Than Just Studying</h1>
+            <p>
+              Besides providing you with new knowledge and training in chosen
+              disciplines, our university also gives you an opportunity to
+              benefit from spending your free time by playing
+            </p>
+            <div class="slide-button d-flex justify-content-center">
+              <a href="#" class="btn-slider btn-slider1">know about us</a>
+              <a href="#" class="btn-slider btn-slider2">contact us</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="image-container">
+            <img src="assets/images/slider3.jpg" alt="Slide 3" />
+          </div>
+          <div class="slide-content">
+            <h1>Providing Higher Education</h1>
+            <p>
+              Besides providing you with new knowledge and training in chosen
+              disciplines, our university also gives you an opportunity to
+              benefit from spending your free time by playing
+            </p>
+            <div class="slide-button d-flex justify-content-center">
+              <a href="#" class="btn-slider btn-slider1">know about us</a>
+              <a href="#" class="btn-slider btn-slider2">contact us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- ################################### faculty section ends ################################### -->
+    <!-- ################################### hero-section ends ################################### -->
 
-        <!-- ************************************************************************************************************************ -->
+    <!-- ************************************************************************************************************************ -->
 
-        <!-- ################################### club section starts ################################### -->
+    <!-- ################################### home-about section starts ################################### -->
 
-        <section id="club">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sec-subTitle">
-                            <h6>Our Clubs</h6>
-                        </div>
-                        <div class="sec-title">
-                            <h2>Why Modern Preparatory is best Solution for
-                                Education</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="sec-content">
-                            <p>Our vertical solutions expertise allows your
-                                business to streamline workflow, and increase
-                                productivity. No matter the business, has you
-                                covered with industry compliant solutions,
-                                customized to your company’s specific needs,
-                                specific needs.</p>
-                        </div>
-                    </div>
+    <section id="home-about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4">
+            <div class="sec-subTitle">
+              <h6>you are welcome</h6>
+            </div>
+            <div class="sec-title">
+              <h2>Discover our Top School Child Benefits</h2>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="about-box">
+                  <i class="fa-solid fa-building-columns"></i>
+                  <h5>college life</h5>
+                  <p>overall in here</p>
                 </div>
-                <div class="row mt-5">
+              </div>
+              <div class="col-lg-3">
+                <div class="about-box">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <h5>events</h5>
+                  <p>school events</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="about-box">
+                  <i class="fa-solid fa-volleyball"></i>
+                  <h5>sports club</h5>
+                  <p>all about sports</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="about-box">
+                  <i class="fa-solid fa-people-arrows"></i>
+                  <h5>social clubs</h5>
+                  <p>social responsibilities</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ################################### home-about section ends ################################### -->
+
+    <!-- ************************************************************************************************************************ -->
+
+    <!-- ################################### home-message section starts ################################### -->
+
+    <section
+      id="home-message"
+      style="background: url(assets/images/home-aboutBG.jpg)"
+    >
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <div class="sec-title">
+              <h2>About our school</h2>
+            </div>
+            <div class="sec-content">
+              <p>
+                Quisque volutpat mattis eros. Nullam malesuada erat ut ki diaml
+                ka dhuddu pochu turpis. Suspendisse urna nibh, viverra non,
+                semper suscipit, posuere a, pede. Donec nec justo eget felis
+                facilisis fermentum. Morbi in sem quis dui placerat ornare.
+                Pellentesque odio nisi, euismod in, pharetra a, ultricies in,
+                diam. Sed arcu. Cras consequat
+              </p>
+            </div>
+            <div class="message">
+              <span><i class="fa-solid fa-quote-left"></i></span>
+              <p>
+                Nullam malesuada erat ut ki diaml ka dhuddu pochu turpis.
+                Suspendisse urna nibh, viverra non, semper suscipit, posuere a,
+                pede. Donec nec justo eget felis facilisis fermentum. Morbi in
+                sem quis dui placerat ornare. Pellentesque odio nisi, euismod.
+                Sed arcu. Cras consequat
+              </p>
+            </div>
+            <div class="author">
+              <h5>Suman Parajuli</h5>
+              <h6>Principal</h6>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="images">
+              <img src="assets/images/img1.jpg" class="img-fluid" alt />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ################################### home-message section ends ################################### -->
+
+    <!-- ************************************************************************************************************************ -->
+
+    <!-- ################################### home-news section starts ################################### -->
+
+    <section id="heading-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="sec-subTitle">
+              <h6>latest news</h6>
+            </div>
+            <div class="sec-title">
+              <h2>Discover our recent news and events</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="home-news-content">
+      <div class="container">
+        <div class="row news-counter">
+          <div class="col-lg-8 col-sm-12">
+            <div class="row gy-5">
+              <div class="col-lg-12">
+                <div class="home-news-grid d-flex justify-content-center">
+                  <div class="news-image">
+                    <img src="assets/images/fac1.jpg" class="img-fluid" alt />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-top">
+                      <span><i class="fa-solid fa-user"></i> Admin</span>
+                    </div>
+                    <div class="news-bottom">
+                      <h5 class="news-title">Scholarship Award 2023</h5>
+                      <p class="news-data">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Voluptatum maxime nihil iure est magnam at
+                        .........
+                      </p>
+                    </div>
+                    <hr />
+                    <div class="news-post">
+                      <p>posted in: <span>Dec 25, 2023</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="home-news-grid d-flex justify-content-center">
+                  <div class="news-image">
+                    <img src="assets/images/fac4.jpg" class="img-fluid" alt />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-top">
+                      <span><i class="fa-solid fa-user"></i> Admin</span>
+                    </div>
+                    <div class="news-bottom">
+                      <h5 class="news-title">Scholarship Award 2023</h5>
+                      <p class="news-data">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Voluptatum maxime nihil iure est magnam at
+                        .........
+                      </p>
+                    </div>
+                    <hr />
+                    <div class="news-post">
+                      <p>posted in: <span>Dec 25, 2023</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="home-news-grid d-flex justify-content-center">
+                  <div class="news-image">
+                    <img src="assets/images/fac2.jpg" class="img-fluid" alt />
+                  </div>
+                  <div class="news-content">
+                    <div class="news-top">
+                      <span><i class="fa-solid fa-user"></i> admin</span>
+                    </div>
+                    <div class="news-bottom">
+                      <h5 class="news-title">Scholarship Award 2023</h5>
+                      <p class="news-data">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Voluptatum maxime nihil iure est magnam at
+                        .........
+                      </p>
+                    </div>
+                    <hr />
+                    <div class="news-post">
+                      <p>posted in: <span>Dec 25, 2023</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-12 home-counter">
+            <div class="sec-subTitle">
+              <h6>modern preparatory fact</h6>
+            </div>
+            <hr />
+            <div class="row gy-4">
+              <div class="col-lg-12">
+                <div class="counter-div">
+                  <div class="counter-title">
+                    <span class="num" id="studentsCounter">0</span>
+                    <span class="plus">+</span>
+                  </div>
+                  <div class="counter-body">
+                    <h5>students</h5>
+                    <p>Enrolled in various programs and courses.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="counter-div">
+                  <div class="counter-title">
+                    <span class="num" id="teachersCounter">0</span>
+                    <span class="plus">+</span>
+                  </div>
+                  <div class="counter-body">
+                    <h5>teachers</h5>
+                    <p>Dedicated educators committed to excellence.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="counter-div">
+                  <div class="counter-title">
+                    <span class="num" id="clubsCounter">0</span>
+                    <span class="plus">+</span>
+                  </div>
+                  <div class="counter-body">
+                    <h5>social clubs</h5>
+                    <p>making students socially responsible.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="counter-div">
+                  <div class="counter-title">
+                    <span class="num" id="yearsCounter">0</span>
+                    <span class="plus">+</span>
+                  </div>
+                  <div class="counter-body">
+                    <h5>years</h5>
+                    <p>Providing quality education for over two decades.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ################################### home-news section ends ################################### -->
+
+    <!-- ************************************************************************************************************************ -->
+
+    <!-- ################################### faculty section starts ################################### -->
+
+    <section id="faculty" style="background: url(assets/images/banner1.jpg)">
+      <div class="container">
+        <div class="row gy-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="faculty-box fac1">
+              <i class="fa-solid fa-child"></i>
+              <h3 class="fac-head">PrePrimary Level</h3>
+              <p class="fac-body">
+                Welcome to the Pre-Primary and Primary School, where we nurture
+                the development of each child emotionally, academically,
+                physically, socially and artistically every day. During these
+                formative years, it is essential...
+              </p>
+              <a href="#" class="btn1">learn more</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="faculty-box fac1">
+              <i class="fa-solid fa-child"></i>
+              <h3 class="fac-head">Primary Level</h3>
+              <p class="fac-body">
+                Welcome to the Pre-Primary and Primary School, where we nurture
+                the development of each child emotionally, academically,
+                physically, socially and artistically every day. During these
+                formative years, it is essential...
+              </p>
+              <a href="#" class="btn1">learn more</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="faculty-box fac1">
+              <i class="fa-solid fa-pencil"></i>
+              <h3 class="fac-head">LowerSecondary and Secondary</h3>
+              <p class="fac-body">
+                We nurture the growth of the whole child academically, socially,
+                physically and emotionally during what is typically the most
+                difficult years (ages 10-16) of one's school life. During this
+                stage...
+              </p>
+              <a href="#" class="btn1">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ################################### faculty section ends ################################### -->
+
+    <!-- ************************************************************************************************************************ -->
+
+    <!-- ################################### club section starts ################################### -->
+
+    <section id="club">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="sec-subTitle">
+              <h6>Our Clubs</h6>
+            </div>
+            <div class="sec-title">
+              <h2>Why Modern Preparatory is best Solution for Education</h2>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="sec-content">
+              <p>
+                Our vertical solutions expertise allows your business to
+                streamline workflow, and increase productivity. No matter the
+                business, has you covered with industry compliant solutions,
+                customized to your company’s specific needs, specific needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div
+              class="splide horizontal-splide club-splide"
+              role="group"
+              aria-label="Splide Basic HTML Example"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="club-box">
+                      <div class="club-box-icon">
+                        <img
+                          src="assets/icons/Social.png"
+                          class="img-fluid"
+                          alt
+                        />
+                      </div>
+                      <div class="club-box-content">
+                        <h5 class="club-title">Social Services</h5>
+                        <p class="club-desc">Students in social activities</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="club-box">
+                      <div class="club-box-icon">
+                        <img
+                          src="assets/icons/environment.png"
+                          class="img-fluid"
+                          alt
+                        />
+                      </div>
+                      <div class="club-box-content">
+                        <h5 class="club-title">Environment Sanitation</h5>
+                        <p class="club-desc">Students in social activities</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="club-box">
+                      <div class="club-box-icon">
+                        <img
+                          src="assets/icons/travel.png"
+                          class="img-fluid"
+                          alt
+                        />
+                      </div>
+                      <div class="club-box-content">
+                        <h5 class="club-title">Travel & Tourism</h5>
+                        <p class="club-desc">Students in social activities</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="club-box">
+                      <div class="club-box-icon">
+                        <img
+                          src="assets/icons/fitness.png"
+                          class="img-fluid"
+                          alt
+                        />
+                      </div>
+                      <div class="club-box-content">
+                        <h5 class="club-title">Sports & Fitness</h5>
+                        <p class="club-desc">Students in social activities</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="club-box">
+                      <div class="club-box-icon">
+                        <img
+                          src="assets/icons/Social.png"
+                          class="img-fluid"
+                          alt
+                        />
+                      </div>
+                      <div class="club-box-content">
+                        <h5 class="club-title">Social Service</h5>
+                        <p class="club-desc">Students in social activities</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="club-box">
+                      <div class="club-box-icon">
+                        <img
+                          src="assets/icons/Social.png"
+                          class="img-fluid"
+                          alt
+                        />
+                      </div>
+                      <div class="club-box-content">
+                        <h5 class="club-title">Social Service</h5>
+                        <p class="club-desc">Students in social activities</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ################################### club section ends ################################### -->
+
+    <!-- ************************************************************************************************************************ -->
+
+    <!-- ################################### service section starts ################################### -->
+
+    <section id="service">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="sec-subTitle">
+            <h6>what we offer</h6>
+          </div>
+          <div class="sec-title">
+            <h2>our services</h2>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-box">
+              <div class="service-head d-flex align-items-center">
+                <div class="service-icon">
+                  <img
+                    width="60"
+                    height="60"
+                    src="assets/icons/teacher.png"
+                    class="img-fluid"
+                    alt="service-image-1"
+                  />
+                </div>
+                <div class="service-title">
+                  <h5>experienced teachers</h5>
+                </div>
+              </div>
+              <div class="service-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-box">
+              <div class="service-head d-flex align-items-center">
+                <div class="service-icon">
+                  <img
+                    width="60"
+                    height="60"
+                    src="assets/icons/bus.png"
+                    class="img-fluid"
+                    alt="service-image-1"
+                  />
+                </div>
+                <div class="service-title">
+                  <h5>transportation</h5>
+                </div>
+              </div>
+              <div class="service-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-box">
+              <div class="service-head d-flex align-items-center">
+                <div class="service-icon">
+                  <img
+                    width="60"
+                    height="60"
+                    src="assets/icons/event.png"
+                    class="img-fluid"
+                    alt="service-image-1"
+                  />
+                </div>
+                <div class="service-title">
+                  <h5>events</h5>
+                </div>
+              </div>
+              <div class="service-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-box">
+              <div class="service-head d-flex align-items-center">
+                <div class="service-icon">
+                  <img
+                    width="60"
+                    height="60"
+                    src="assets/icons/activity.png"
+                    class="img-fluid"
+                    alt="service-image-1"
+                  />
+                </div>
+                <div class="service-title">
+                  <h5>physical activity</h5>
+                </div>
+              </div>
+              <div class="service-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-box">
+              <div class="service-head d-flex align-items-center">
+                <div class="service-icon">
+                  <img
+                    width="60"
+                    height="60"
+                    src="assets/icons/heart.png"
+                    class="img-fluid"
+                    alt="service-image-1"
+                  />
+                </div>
+                <div class="service-title">
+                  <h5>love & care</h5>
+                </div>
+              </div>
+              <div class="service-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-box">
+              <div class="service-head d-flex align-items-center">
+                <div class="service-icon">
+                  <img
+                    width="60"
+                    height="60"
+                    src="assets/icons/fitness.png"
+                    class="img-fluid"
+                    alt="service-image-1"
+                  />
+                </div>
+                <div class="service-title">
+                  <h5>annual sports</h5>
+                </div>
+              </div>
+              <div class="service-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ################################### service section starts ################################### -->
+
+    <!-- ************************************************************************************************************************ -->
+
+    <!-- ################################### news-box section starts ################################### -->
+
+    <section id="heading-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="sec-subTitle">
+              <h6>upcoming events and notices</h6>
+            </div>
+            <div class="sec-title">
+              <h2>Discover our upcoming events and notices</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="news-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="latest-news-wrapper">
+              <div class="sec-subTitle">
+                <h6>keep updated</h6>
+              </div>
+              <div class="sec-title">
+                <h2>upcoming news</h2>
+              </div>
+              <div class="row mt-2 gy-5">
+                <div class="col-lg-4 col-sm-12">
+                  <div class="news-wrapper">
+                    <a href="newsDetail.html">
+                      <div class="news-images">
+                        <img
+                          src="assets/images/news1.png"
+                          class="img-fluid"
+                          alt="newsImages"
+                        />
+                      </div>
+                      <div class="news-content">
+                        <div
+                          class="news-content-top d-flex justify-content-between align-items-center"
+                        >
+                          <h6 class="news-categ">news</h6>
+                          <span
+                            ><i class="fa-solid fa-calendar-days"></i>20
+                            Dec,2023</span
+                          >
+                        </div>
+                        <h6 class="news-head">
+                          Building a career in cyber security
+                        </h6>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <div class="news-wrapper">
+                    <a href="#">
+                      <div class="news-images">
+                        <img
+                          src="assets/images/news2.jpg"
+                          class="img-fluid"
+                          alt="newsImages"
+                        />
+                      </div>
+                      <div class="news-content">
+                        <div
+                          class="news-content-top d-flex justify-content-between align-items-center"
+                        >
+                          <h6 class="news-categ">events</h6>
+                          <span
+                            ><i class="fa-solid fa-calendar-days"></i>20
+                            Dec,2023</span
+                          >
+                        </div>
+                        <h6 class="news-head">Building a career in cyber</h6>
+                        <!-- <p class="news-body">Lorem ipsum
+                                                    dolor sit
+                                                    amet
+                                                    consectetur
+                                                    adipisicing elit. Deserunt,
+                                                    aperiam.
+                                                    Voluptate cum beatae quo
+                                                    voluptatum
+                                                    fugiat</p> -->
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                  <div class="news-wrapper">
+                    <a href="#">
+                      <div class="news-images">
+                        <img
+                          src="assets/images/news3.png"
+                          class="img-fluid"
+                          alt="newsImages"
+                        />
+                      </div>
+                      <div class="news-content">
+                        <div
+                          class="news-content-top d-flex justify-content-between align-items-center"
+                        >
+                          <h6 class="news-categ">news</h6>
+                          <span
+                            ><i class="fa-solid fa-calendar-days"></i>20
+                            Dec,2023</span
+                          >
+                        </div>
+                        <h6 class="news-head">
+                          Building a career in cyber security
+                        </h6>
+                        <!-- <p class="news-body">Lorem ipsum
+                                                    dolor sit
+                                                    amet
+                                                    consectetur
+                                                    adipisicing elit. Deserunt,
+                                                    aperiam.
+                                                    Voluptate cum beatae quo
+                                                    voluptatum
+                                                    fugiat</p> -->
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="notice-wrapper">
+              <div class="sec-subTitle">
+                <h6>keep updated</h6>
+              </div>
+              <div class="sec-title">
+                <h2>notices</h2>
+              </div>
+              <div class="sec-content">
+                <p>
+                  Please input an email and school address down below input an
+                  email address down an email.
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="notice-box">
+                    <ul>
+                      <li class="notice-list d-flex align-items-center">
+                        <div class="notice-date">
+                          <span class="notice-month">Nov</span>
+                          <span class="notice-day">20</span>
+                        </div>
+                        <div class="notice-info">
+                          <div class="notice-title">
+                            <h6><a href="#">Staff Meeting</a></h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="notice-list d-flex align-items-center">
+                        <div class="notice-date">
+                          <span class="notice-month">Nov</span>
+                          <span class="notice-day">20</span>
+                        </div>
+                        <div class="notice-info">
+                          <div class="notice-title">
+                            <h6><a href="#">Staff Meeting</a></h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="notice-list d-flex align-items-center">
+                        <div class="notice-date">
+                          <span class="notice-month">Nov</span>
+                          <span class="notice-day">20</span>
+                        </div>
+                        <div class="notice-info">
+                          <div class="notice-title">
+                            <h6><a href="#">Staff Meeting</a></h6>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <p class="more-link">
+                      <a href="#">all events</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ################################### news-box section ends ################################### -->
+
+    <!-- ************************************************************************************************************************ -->
+
+    <!-- ################################### testimonial section starts ################################### -->
+
+    <section id="heading-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="sec-subTitle">
+              <h6>testimonials</h6>
+            </div>
+            <div class="sec-title">
+              <h2>Discover our latest testimonials</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="splide testimonial-splide"
+              role="group"
+              aria-label="Splide Basic HTML Example"
+            >
+              <div class="splide__track">
+                <ul class="splide__list">
+                  <li class="splide__slide">
+                    <div class="review-box">
+                      <div class="review-top">
+                        <div class="review-star">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <p>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore pariatur. Excepteur
+                          cupidatatproident, culpa qui officia deserunt mollit
+                        </p>
+                      </div>
+                      <div
+                        class="review-bottom d-flex align-items-center gap-4"
+                      >
+                        <div class="review-img">
+                          <img
+                            src="assets/images/sir.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="review-info">
+                          <h5>Ram Rai</h5>
+                          <p>Student</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="review-box">
+                      <div class="review-top">
+                        <div class="review-star">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <p>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore pariatur. Excepteur
+                          cupidatatproident, culpa qui officia deserunt mollit
+                        </p>
+                      </div>
+                      <div
+                        class="review-bottom d-flex align-items-center gap-4"
+                      >
+                        <div class="review-img">
+                          <img
+                            src="assets/images/sir.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="review-info">
+                          <h5>Ram Rai</h5>
+                          <p>Student</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="review-box">
+                      <div class="review-top">
+                        <div class="review-star">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <p>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore pariatur. Excepteur
+                          cupidatatproident, culpa qui officia deserunt mollit
+                        </p>
+                      </div>
+                      <div
+                        class="review-bottom d-flex align-items-center gap-4"
+                      >
+                        <div class="review-img">
+                          <img
+                            src="assets/images/sir.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="review-info">
+                          <h5>Ram Rai</h5>
+                          <p>Student</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="review-box">
+                      <div class="review-top">
+                        <div class="review-star">
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                          <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <p>
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore pariatur. Excepteur
+                          cupidatatproident, culpa qui officia deserunt mollit
+                        </p>
+                      </div>
+                      <div
+                        class="review-bottom d-flex align-items-center gap-4"
+                      >
+                        <div class="review-img">
+                          <img
+                            src="assets/images/sir.jpg"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="review-info">
+                          <h5>Ram Rai</h5>
+                          <p>Student</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ################################### testimonial section ends ################################### -->
+
+    <!-- ################################### footer section starts ################################### -->
+
+    <section
+      id="footer"
+      style="
+        background-image: linear-gradient(#000a, #000b),
+          url(assets/images/banner1.jpg);
+      "
+    >
+      <div class="container">
+        <div class="footer-top">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer-info footer-phone d-flex align-items-center">
+                <div class="footer-icon">
+                  <img src="assets/icons/phone.png" class="img-fluid" alt />
+                </div>
+                <div class="footer-icon-content">
+                  <p>Give us a call</p>
+                  <h5>
+                    <a href="tel:9762514789">+977 9762514789</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-info footer-mail d-flex align-items-center">
+                <div class="footer-icon">
+                  <img src="assets/icons/mail.png" class="img-fluid" alt />
+                </div>
+                <div class="footer-icon-content">
+                  <p>Send us a message</p>
+                  <h5>
+                    <a href="mailto:krishparajuli57@gmail.com"
+                      >krishparajuli57@gmail.com</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-info footer-address d-flex align-items-center">
+                <div class="footer-icon">
+                  <img src="assets/icons/location.png" class="img-fluid" alt />
+                </div>
+                <div class="footer-icon-content">
+                  <p>Visit our location</p>
+                  <h5>
+                    <a href="#">Itahari, Sunsari</a>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-main">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3 col-sm-6">
+              <div class="footer-title">
+                <h4>about Modern preparatory</h4>
+              </div>
+              <div class="footer-content">
+                <p>
+                  Monotne deplos copertve chanva andng crorate Qhanin Unique
+                  Qnderwhe Premum Convere With Uheng Mutmed Cover
+                </p>
+              </div>
+              <div class="footer-social">
+                <h5>follow us :</h5>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-sm-6">
+              <div class="footer-title">
+                <h4>services</h4>
+              </div>
+              <div class="footer-content">
+                <ul>
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">students reviews</a></li>
+                  <li><a href="#">gallery</a></li>
+                  <li><a href="#">contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-sm-6">
+              <div class="footer-title">
+                <h4>information</h4>
+              </div>
+              <div class="footer-content">
+                <ul>
+                  <li><a href="#">message from principal</a></li>
+                  <li><a href="#">our team</a></li>
+                  <li><a href="#">news & events</a></li>
+                  <li><a href="#">notices</a></li>
+                  <li><a href="#">privacy & policy</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-sm-6">
+              <div class="footer-title">
+                <h4>newsletter subscription</h4>
+              </div>
+              <div class="footer-content">
+                <p>
+                  Enter your email and get latest updates and offers subscribe
+                  us
+                </p>
+              </div>
+              <div class="footer-subs">
+                <form action="#">
+                  <div class="row">
                     <div class="col-lg-12">
-                        <div class="splide horizontal-splide club-splide"
-                            role="group"
-                            aria-label="Splide Basic HTML Example">
-                            <div class="splide__track">
-                                <ul class="splide__list">
-                                    <li class="splide__slide">
-                                        <div class="club-box">
-                                            <div class="club-box-icon">
-                                                <img
-                                                    src="assets/icons/Social.png"
-                                                    class="img-fluid" alt>
-                                            </div>
-                                            <div class="club-box-content">
-                                                <h5 class="club-title">Social
-                                                    Services</h5>
-                                                <p class="club-desc">Students in
-                                                    social activities</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide">
-                                        <div class="club-box">
-                                            <div class="club-box-icon">
-                                                <img
-                                                    src="assets/icons/environment.png"
-                                                    class="img-fluid" alt>
-                                            </div>
-                                            <div class="club-box-content">
-                                                <h5 class="club-title">Environment
-                                                    Sanitation</h5>
-                                                <p class="club-desc">Students in
-                                                    social activities</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide">
-                                        <div class="club-box">
-                                            <div class="club-box-icon">
-                                                <img
-                                                    src="assets/icons/travel.png"
-                                                    class="img-fluid" alt>
-                                            </div>
-                                            <div class="club-box-content">
-                                                <h5 class="club-title">Travel &
-                                                    Tourism</h5>
-                                                <p class="club-desc">Students in
-                                                    social activities</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide">
-                                        <div class="club-box">
-                                            <div class="club-box-icon">
-                                                <img
-                                                    src="assets/icons/fitness.png"
-                                                    class="img-fluid" alt>
-                                            </div>
-                                            <div class="club-box-content">
-                                                <h5 class="club-title">Sports &
-                                                    Fitness</h5>
-                                                <p class="club-desc">Students in
-                                                    social activities</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide">
-                                        <div class="club-box">
-                                            <div class="club-box-icon">
-                                                <img
-                                                    src="assets/icons/Social.png"
-                                                    class="img-fluid" alt>
-                                            </div>
-                                            <div class="club-box-content">
-                                                <h5 class="club-title">Social
-                                                    Service</h5>
-                                                <p class="club-desc">Students in
-                                                    social activities</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="splide__slide">
-                                        <div class="club-box">
-                                            <div class="club-box-icon">
-                                                <img
-                                                    src="assets/icons/Social.png"
-                                                    class="img-fluid" alt>
-                                            </div>
-                                            <div class="club-box-content">
-                                                <h5 class="club-title">Social
-                                                    Service</h5>
-                                                <p class="club-desc">Students in
-                                                    social activities</p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                      <input
+                        type="email"
+                        autocomplete="off"
+                        class="form-control"
+                        placeholder="Enter your email"
+                        name="email"
+                      />
                     </div>
-                </div>
+                    <div class="col-12">
+                      <button type="submit" name="subscribe" class="sub-btn">
+                        subscribe now
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- ################################### club section ends ################################### -->
+    <!-- ################################### footer section ends ################################### -->
 
-        <!-- ************************************************************************************************************************ -->
-
-        <!-- ################################### service section starts ################################### -->
-
-        <section id="service">
-            <div class="container">
-                <div class="row gy-5">
-                    <div class="sec-subTitle">
-                        <h6>what we offer</h6>
-                    </div>
-                    <div class="sec-title">
-                        <h2>our services</h2>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-box">
-                            <div class="service-head d-flex align-items-center">
-                                <div class="service-icon">
-                                    <img width="60" height="60"
-                                        src="assets/icons/teacher.png"
-                                        class="img-fluid" alt="service-image-1">
-                                </div>
-                                <div class="service-title">
-                                    <h5>experienced teachers</h5>
-                                </div>
-                            </div>
-                            <div class="service-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-box">
-                            <div class="service-head d-flex align-items-center">
-                                <div class="service-icon">
-                                    <img width="60" height="60"
-                                        src="assets/icons/bus.png"
-                                        class="img-fluid" alt="service-image-1">
-                                </div>
-                                <div class="service-title">
-                                    <h5>transportation</h5>
-                                </div>
-                            </div>
-                            <div class="service-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-box">
-                            <div class="service-head d-flex align-items-center">
-                                <div class="service-icon">
-                                    <img width="60" height="60"
-                                        src="assets/icons/event.png"
-                                        class="img-fluid" alt="service-image-1">
-                                </div>
-                                <div class="service-title">
-                                    <h5>events</h5>
-                                </div>
-                            </div>
-                            <div class="service-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-box">
-                            <div class="service-head d-flex align-items-center">
-                                <div class="service-icon">
-                                    <img width="60" height="60"
-                                        src="assets/icons/activity.png"
-                                        class="img-fluid" alt="service-image-1">
-                                </div>
-                                <div class="service-title">
-                                    <h5>physical activity</h5>
-                                </div>
-                            </div>
-                            <div class="service-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-box">
-                            <div class="service-head d-flex align-items-center">
-                                <div class="service-icon">
-                                    <img width="60" height="60"
-                                        src="assets/icons/heart.png"
-                                        class="img-fluid" alt="service-image-1">
-                                </div>
-                                <div class="service-title">
-                                    <h5>love & care</h5>
-                                </div>
-                            </div>
-                            <div class="service-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-box">
-                            <div class="service-head d-flex align-items-center">
-                                <div class="service-icon">
-                                    <img width="60" height="60"
-                                        src="assets/icons/fitness.png"
-                                        class="img-fluid" alt="service-image-1">
-                                </div>
-                                <div class="service-title">
-                                    <h5>annual sports</h5>
-                                </div>
-                            </div>
-                            <div class="service-body">
-                                <p>Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna
-                                    aliqua.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ################################### service section starts ################################### -->
-
-        <!-- ************************************************************************************************************************ -->
-
-        <!-- ################################### news-box section starts ################################### -->
-
-        <section id="heading-box">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="sec-subTitle">
-                            <h6>upcoming events and notices</h6>
-                        </div>
-                        <div class="sec-title">
-                            <h2>Discover our upcoming events and notices</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="news-box">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <div class="latest-news-wrapper">
-                            <div class="sec-subTitle">
-                                <h6>keep updated</h6>
-                            </div>
-                            <div class="sec-title">
-                                <h2>upcoming news</h2>
-                            </div>
-                            <div class="row mt-2 gy-5">
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="news-wrapper">
-                                        <a href="newsDetail.html">
-                                            <div class="news-images">
-                                                <img
-                                                    src="assets/images/news1.png"
-                                                    class="img-fluid"
-                                                    alt="newsImages">
-                                            </div>
-                                            <div class="news-content">
-                                                <div
-                                                    class="news-content-top d-flex justify-content-between align-items-center">
-                                                    <h6 class="news-categ">news</h6>
-                                                    <span><i
-                                                            class="fa-solid fa-calendar-days"></i>20
-                                                        Dec,2023</span>
-                                                </div>
-                                                <h6 class="news-head">Building a
-                                                    career in
-                                                    cyber
-                                                    security</h6>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="news-wrapper">
-                                        <a href="#">
-                                            <div class="news-images">
-                                                <img
-                                                    src="assets/images/news2.jpg"
-                                                    class="img-fluid"
-                                                    alt="newsImages">
-                                            </div>
-                                            <div class="news-content">
-                                                <div
-                                                    class="news-content-top d-flex justify-content-between align-items-center">
-                                                    <h6 class="news-categ">events</h6>
-                                                    <span><i
-                                                            class="fa-solid fa-calendar-days"></i>20
-                                                        Dec,2023</span>
-                                                </div>
-                                                <h6 class="news-head">Building a
-                                                    career in
-                                                    cyber
-                                                </h6>
-                                                <!-- <p class="news-body">Lorem ipsum
-                                                    dolor sit
-                                                    amet
-                                                    consectetur
-                                                    adipisicing elit. Deserunt,
-                                                    aperiam.
-                                                    Voluptate cum beatae quo
-                                                    voluptatum
-                                                    fugiat</p> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-sm-12">
-                                    <div class="news-wrapper">
-                                        <a href="#">
-                                            <div class="news-images">
-                                                <img
-                                                    src="assets/images/news3.png"
-                                                    class="img-fluid"
-                                                    alt="newsImages">
-                                            </div>
-                                            <div class="news-content">
-                                                <div
-                                                    class="news-content-top d-flex justify-content-between align-items-center">
-                                                    <h6 class="news-categ">news</h6>
-                                                    <span><i
-                                                            class="fa-solid fa-calendar-days"></i>20
-                                                        Dec,2023</span>
-                                                </div>
-                                                <h6 class="news-head">Building a
-                                                    career in
-                                                    cyber
-                                                    security</h6>
-                                                <!-- <p class="news-body">Lorem ipsum
-                                                    dolor sit
-                                                    amet
-                                                    consectetur
-                                                    adipisicing elit. Deserunt,
-                                                    aperiam.
-                                                    Voluptate cum beatae quo
-                                                    voluptatum
-                                                    fugiat</p> -->
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="notice-wrapper">
-                            <div class="sec-subTitle">
-                                <h6>keep updated</h6>
-                            </div>
-                            <div class="sec-title">
-                                <h2>notices</h2>
-                            </div>
-                            <div class="sec-content">
-                                <p>Please input an email and school address down
-                                    below input an email address down an email.</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="notice-box">
-                                        <ul>
-                                            <li
-                                                class="notice-list d-flex align-items-center">
-                                                <div class="notice-date">
-                                                    <span class="notice-month">Nov</span>
-                                                    <span class="notice-day">20</span>
-                                                </div>
-                                                <div class="notice-info">
-                                                    <div class="notice-title">
-                                                        <h6><a href="#">Staff
-                                                                Meeting</a></h6>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li
-                                                class="notice-list d-flex align-items-center">
-                                                <div class="notice-date">
-                                                    <span class="notice-month">Nov</span>
-                                                    <span class="notice-day">20</span>
-                                                </div>
-                                                <div class="notice-info">
-                                                    <div class="notice-title">
-                                                        <h6><a href="#">Staff
-                                                                Meeting</a></h6>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li
-                                                class="notice-list d-flex align-items-center">
-                                                <div class="notice-date">
-                                                    <span class="notice-month">Nov</span>
-                                                    <span class="notice-day">20</span>
-                                                </div>
-                                                <div class="notice-info">
-                                                    <div class="notice-title">
-                                                        <h6><a href="#">Staff
-                                                                Meeting</a></h6>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <p class="more-link">
-                                            <a href="#">all events</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ################################### news-box section ends ################################### -->
-
-        <!-- ************************************************************************************************************************ -->
-
-        <!-- ################################### footer section starts ################################### -->
-
-        <section id="footer"
-            style="background-image: linear-gradient(#000A,#000B),url(assets/images/banner1.jpg);">
-            <div class="container">
-                <div class="footer-top">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div
-                                class="footer-info footer-phone d-flex align-items-center">
-                                <div class="footer-icon">
-                                    <img src="assets/icons/phone.png"
-                                        class="img-fluid" alt>
-                                </div>
-                                <div class="footer-icon-content">
-                                    <p>Give us a call</p>
-                                    <h5>
-                                        <a href="tel:9762514789">+977 9762514789</a>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div
-                                class="footer-info footer-mail d-flex align-items-center">
-                                <div class="footer-icon">
-                                    <img src="assets/icons/mail.png"
-                                        class="img-fluid" alt>
-                                </div>
-                                <div class="footer-icon-content">
-                                    <p>Send us a message</p>
-                                    <h5>
-                                        <a
-                                            href="mailto:krishparajuli57@gmail.com">krishparajuli57@gmail.com</a>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div
-                                class="footer-info footer-address d-flex align-items-center">
-                                <div class="footer-icon">
-                                    <img src="assets/icons/location.png"
-                                        class="img-fluid" alt>
-                                </div>
-                                <div class="footer-icon-content">
-                                    <p>Visit our location</p>
-                                    <h5>
-                                        <a href="#">Itahari, Sunsari</a>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-main">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-3 col-sm-6">
-                            <div class="footer-title">
-                                <h4>about Modern preparatory</h4>
-                            </div>
-                            <div class="footer-content">
-                                <p>Monotne deplos copertve chanva andng crorate
-                                    Qhanin Unique Qnderwhe Premum Convere With
-                                    Uheng Mutmed Cover</p>
-                            </div>
-                            <div class="footer-social">
-                                <h5>follow us :</h5>
-                                <ul>
-                                    <li><a href="#"><i
-                                                class="fa-brands fa-facebook"></i></a></li>
-                                    <li><a href="#"><i
-                                                class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i
-                                                class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#"><i
-                                                class="fa-brands fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-sm-6">
-                            <div class="footer-title">
-                                <h4>services</h4>
-                            </div>
-                            <div class="footer-content">
-                                <ul>
-                                    <li><a href="#">home</a></li>
-                                    <li><a href="#">about us</a></li>
-                                    <li><a href="#">students reviews</a></li>
-                                    <li><a href="#">gallery</a></li>
-                                    <li><a href="#">contact us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-sm-6">
-                            <div class="footer-title">
-                                <h4>information</h4>
-                            </div>
-                            <div class="footer-content">
-                                <ul>
-                                    <li><a href="#">message from principal</a></li>
-                                    <li><a href="#">our team</a></li>
-                                    <li><a href="#">news & events</a></li>
-                                    <li><a href="#">notices</a></li>
-                                    <li><a href="#">privacy & policy</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-sm-6">
-                            <div class="footer-title">
-                                <h4>newsletter subscription</h4>
-                            </div>
-                            <div class="footer-content">
-                                <p>Enter your email and get latest updates and
-                                    offers subscribe us</p>
-                            </div>
-                            <div class="footer-subs">
-                                <form action="#">
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <input type="email"
-                                                autocomplete="off"
-                                                class="form-control"
-                                                placeholder="Enter your email"
-                                                name="email">
-                                        </div>
-                                        <div class="col-12">
-                                            <button type="submit"
-                                                name="subscribe" class="sub-btn">subscribe
-                                                now</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ################################### footer section ends ################################### -->
-
-        <!-- <script src="assets/js/jquery.min.js"></script> -->
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/owlCarousel/js/owl.carousel.min.js"></script>
-        <script src="assets/splide/js/splide.min.js"></script>
-        <script src="assets/counter/waypoints.min.js"></script>
-        <script src="assets/counter/jquery.counterup.min.js"></script>
-        <script src="assets/js/script.js"></script>
-    </body>
-
+    <!-- <script src="assets/js/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/owlCarousel/js/owl.carousel.min.js"></script>
+    <script src="assets/splide/js/splide.min.js"></script>
+    <script src="assets/counter/waypoints.min.js"></script>
+    <script src="assets/counter/jquery.counterup.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
