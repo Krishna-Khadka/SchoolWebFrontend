@@ -51,8 +51,8 @@ var testimonialSplide = new Splide(".testimonial-splide", {
   type: "loop",
   arrows: false,
   pagination: false,
-  autoplay: true,
-  perPage: 3,
+  // autoplay: true,
+  perPage: 2,
   perMove: 1,
   breakpoints: {
     576: {

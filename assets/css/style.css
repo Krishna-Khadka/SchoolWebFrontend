@@ -2444,49 +2444,52 @@ nav.sticky .dropdown-item:hover {
   }
 
 /* testimonial */
+
 #testimonial {
+  background-color: var(--primary);
   padding: 80px 0;
 }
 
-#testimonial .testimonial-splide {
-  text-align: left;
+#testimonial .testimonial-splide .review-box {
+  margin: 7px;
+  background-color: var(--light-white);
+}
+#testimonial .testimonial-splide .review-box .image{
+  width: 100%;
+  height: 250px;
 }
 
-#testimonial .review-top {
-  background: white;
-  box-shadow: 0px 0px 13px #dddddd8c;
-  padding: 30px 25px;
-  margin: 35px 0;
-  border-radius: 4px;
-  position: relative;
+#testimonial .testimonial-splide .review-box .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
-#testimonial .review-top .review-star {
-  margin-bottom: 30px;
-  color: var(--secondary);
+#testimonial .testimonial-splide .review-box .review-info {
+  padding: 10px 25px;
 }
 
-#testimonial .review-bottom {
-  margin-left: 35px;
-}
-
-#testimonial .review-bottom .review-img {
-  width: 74px;
-  height: 74px;
-  border-radius: 50%;
-  text-align: center;
-  overflow: hidden;
-}
-
-#testimonial .review-bottom h5 {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 10px;
+#testimonial .testimonial-splide .review-box .review-info p {
+  font-size: 18px;
+  font-weight: 500;
   color: var(--text-dark);
 }
 
-#testimonial .review-bottom p {
-  font-size: 19px;
+#testimonial .testimonial-splide .review-box .review-bottom {
+  padding: 0 25px;
+  padding-bottom: 10px;
+}
+
+#testimonial .testimonial-splide .review-box .review-bottom h5 {
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--primary);
+}
+
+#testimonial .testimonial-splide .review-box .review-bottom h6 {
+  font-size: 16px;
   color: var(--text-dim);
 }
 
